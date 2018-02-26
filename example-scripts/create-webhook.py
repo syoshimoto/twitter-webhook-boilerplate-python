@@ -9,8 +9,8 @@ ACCESS_TOKEN = os.environ.get('ACCESS_TOKEN', None)
 ACCESS_TOKEN_SECRET = os.environ.get('ACCESS_TOKEN_SECRET', None)
 
 #The environment name for the beta is filled below. Will need changing in future		
-ENVNAME = 'env-beta'
-WEBHOOK_URL = '{URL HERE}'
+ENVNAME = '1.1'
+WEBHOOK_URL = 'https://aqueous-brook-61397.herokuapp.com/webhook'
 
 
 twitterAPI = TwitterAPI(CONSUMER_KEY, CONSUMER_SECRET, ACCESS_TOKEN, ACCESS_TOKEN_SECRET)
